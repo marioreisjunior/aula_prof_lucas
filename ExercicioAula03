@@ -1,0 +1,20 @@
+package Aula03;
+
+import java.util.Scanner;
+
+public class DesafioAula3 { 
+public static void main(String[]args) { 
+
+Scanner naosei = new Scanner(System.in);
+
+System.out.print("Digite nome do ser: ");
+String nome = naosei.nextLine();
+
+System.out.print("Digite signo de "+nome+": ");
+String signo = naosei.nextLine();
+
+System.out.print("Digite a idade de "+nome+": ");
+int idade = naosei.nextInt();
+
+System.out.print("O nome do ser é "+nome+", tem "+idade+" anos e "+signo);
+naosei.close();
